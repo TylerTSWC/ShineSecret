@@ -1,25 +1,27 @@
-<nav class="bg-white shadow-md sticky top-0 z-50">
+<nav class="bg-black border-b border-yellow-500 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
         <!-- Logo -->
-        <h1 class="text-2xl font-bold tracking-wide">Essence</h1>
+        <h1 class="text-2xl font-bold tracking-widest text-yellow-500">
+            Essence
+        </h1>
 
         <!-- Desktop Menu -->
         <ul class="hidden md:flex space-x-8 font-medium">
-            <li><a href="index.php" class="hover:text-pink-600">Home</a></li>
-            <li><a href="#" class="hover:text-pink-600">Products</a></li>
-            <li><a href="#" class="hover:text-pink-600">Services</a></li>
-            <li><a href="#" class="hover:text-pink-600">Contact</a></li>
+            <li><a href="index.php" class="hover:text-yellow-500 transition">Home</a></li>
+            <li><a href="#" class="hover:text-yellow-500 transition">Products</a></li>
+            <li><a href="#" class="hover:text-yellow-500 transition">Services</a></li>
+            <li><a href="#" class="hover:text-yellow-500 transition">Contact</a></li>
         </ul>
 
         <!-- Desktop Button -->
         <a href="#"
-           class="hidden md:inline-block bg-pink-600 text-white px-5 py-2 rounded-full hover:bg-pink-700 transition">
+           class="hidden md:inline-block bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition">
             Order Now
         </a>
 
-        <!-- Mobile Menu Button -->
-        <button id="menuBtn" class="md:hidden focus:outline-none">
+        <!-- Mobile Button -->
+        <button id="menuBtn" class="md:hidden text-yellow-500 focus:outline-none">
             <svg xmlns="http://www.w3.org/2000/svg"
                  class="h-7 w-7"
                  fill="none"
@@ -33,16 +35,18 @@
         </button>
     </div>
 
-    <!-- Mobile Menu -->
-    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
-        <ul class="flex flex-col px-6 py-4 space-y-4 font-medium">
-            <li><a href="index.php" class="hover:text-pink-600">Home</a></li>
-            <li><a href="#" class="hover:text-pink-600">Products</a></li>
-            <li><a href="#" class="hover:text-pink-600">Services</a></li>
-            <li><a href="#" class="hover:text-pink-600">Contact</a></li>
+    <!-- Mobile Menu (Animated) -->
+    <div id="mobileMenu"
+         class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out bg-black border-t border-yellow-500">
+
+        <ul class="flex flex-col px-6 py-6 space-y-5 font-medium">
+            <li><a href="index.php" class="hover:text-yellow-500 transition">Home</a></li>
+            <li><a href="#" class="hover:text-yellow-500 transition">Products</a></li>
+            <li><a href="#" class="hover:text-yellow-500 transition">Services</a></li>
+            <li><a href="#" class="hover:text-yellow-500 transition">Contact</a></li>
             <li>
                 <a href="#"
-                   class="inline-block bg-pink-600 text-white px-5 py-2 rounded-full hover:bg-pink-700">
+                   class="inline-block bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition">
                     Order Now
                 </a>
             </li>
@@ -50,12 +54,17 @@
     </div>
 </nav>
 
-<!-- Mobile Menu Script -->
 <script>
     const menuBtn = document.getElementById('menuBtn');
     const mobileMenu = document.getElementById('mobileMenu');
 
     menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
+        if (mobileMenu.classList.contains('max-h-0')) {
+            mobileMenu.classList.remove('max-h-0');
+            mobileMenu.classList.add('max-h-screen');
+        } else {
+            mobileMenu.classList.add('max-h-0');
+            mobileMenu.classList.remove('max-h-screen');
+        }
     });
 </script>
