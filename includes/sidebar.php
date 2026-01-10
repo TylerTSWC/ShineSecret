@@ -8,11 +8,13 @@
 
         <!-- Desktop Menu -->
         <ul class="hidden md:flex space-x-8 font-medium">
-            <li><a href="index.php" class="hover:text-yellow-500 transition">Home</a></li>
-            <li><a href="#" class="hover:text-yellow-500 transition">Products</a></li>
-            <li><a href="#" class="hover:text-yellow-500 transition">Services</a></li>
-            <li><a href="#" class="hover:text-yellow-500 transition">Contact</a></li>
+            <li><a href="dashboard.php" class="hover:text-yellow-500">Home</a></li>
+            <li><a href="products.php" class="hover:text-yellow-500">Products</a></li>
+            <li><a href="about.php" class="hover:text-yellow-500">About</a></li>
+            <li><a href="testimonials.php" class="hover:text-yellow-500">Testimonials</a></li>
+            <li><a href="contact.php" class="hover:text-yellow-500">Contact</a></li>
         </ul>
+
 
         <!-- Desktop Button -->
         <a href="#"
