@@ -43,7 +43,7 @@
             <!-- Google Map -->
             <div class="w-full h-[350px] md:h-[400px] rounded-2xl overflow-hidden border border-yellow-500">
                 <iframe
-                    src="https://www.google.com/maps?q=8V47%2B3QV%20Sibu%2C%20Sarawak&output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5040.337234530076!2d111.8620443114732!3d2.305002057749921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31f78023b985616d%3A0x43978ab663a47f3f!2sShines%20Secret!5e1!3m2!1sen!2smy!4v1768130279516!5m2!1sen!2smy"
                     width="100%"
                     height="100%"
                     style="border:0;"
@@ -51,6 +51,7 @@
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
+
             </div>
 
         </div>
