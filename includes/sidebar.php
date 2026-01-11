@@ -3,7 +3,7 @@
 
         <!-- Logo -->
         <h1 class="text-2xl font-bold tracking-widest text-yellow-500">
-            Essence
+            Shines Secret
         </h1>
 
         <!-- Desktop Menu -->
@@ -42,10 +42,11 @@
          class="overflow-hidden max-h-0 transition-all duration-300 ease-in-out bg-black border-t border-yellow-500">
 
         <ul class="flex flex-col px-6 py-6 space-y-5 font-medium">
-            <li><a href="index.php" class="hover:text-yellow-500 transition">Home</a></li>
-            <li><a href="#" class="hover:text-yellow-500 transition">Products</a></li>
-            <li><a href="#" class="hover:text-yellow-500 transition">Services</a></li>
-            <li><a href="#" class="hover:text-yellow-500 transition">Contact</a></li>
+            <li><a href="dashboard.php" class="hover:text-yellow-500 transition">Home</a></li>
+            <li><a href="products.php" class="hover:text-yellow-500 transition">Products</a></li>
+            <li><a href="about.php" class="hover:text-yellow-500 transition">About</a></li>
+            <li><a href="testimonials.php" class="hover:text-yellow-500 transition">Testimonials</a></li>
+            <li><a href="contact.php" class="hover:text-yellow-500 transition">Contact</a></li>
             <li>
                 <a href="#"
                    class="inline-block bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition">

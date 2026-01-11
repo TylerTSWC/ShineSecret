@@ -10,58 +10,67 @@
                 About <span class="text-yellow-500">Essence</span>
             </h1>
             <p class="text-gray-400 max-w-3xl mx-auto">
-                Luxury fragrances crafted with passion, precision, and purpose.
+                Where fragrance becomes a signature of elegance and confidence.
             </p>
         </div>
 
-        <!-- Story Section -->
-        <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
+        <!-- Our Story -->
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-24 fade-in">
             <div>
-                <h2 class="text-3xl font-semibold mb-4 text-yellow-500">
+                <h2 class="text-3xl font-semibold mb-6 text-yellow-500">
                     Our Story
                 </h2>
+                <p class="text-gray-400 leading-relaxed mb-4">
+                    Essence has been serving customers in the local community with a strong
+                    passion for fine fragrances and personal expression. Established to meet
+                    the growing appreciation for quality perfumes, Essence aims to help
+                    individuals express confidence, elegance, and individuality through scent.
+                </p>
+
+                <p class="text-gray-400 leading-relaxed mb-4">
+                    Founded by <span class="text-white font-medium">Nurmala Zakiah</span> and
+                    co-owned with <span class="text-white font-medium">Badrul Zakuan</span>,
+                    Essence offers a carefully curated selection of perfumes ranging from
+                    floral and fresh notes to deep woody and oriental scents.
+                </p>
+
                 <p class="text-gray-400 leading-relaxed">
-                    Essence was founded with a simple belief — fragrance is more than a scent,
-                    it is an identity. Each bottle is designed to capture emotion, elegance,
-                    and individuality.
+                    We work closely with trusted perfume houses and reputable suppliers to
+                    ensure every fragrance meets high standards of quality, longevity, and
+                    authenticity. Customer satisfaction remains at the heart of everything
+                    we do.
                 </p>
             </div>
-            <div class="rounded-2xl overflow-hidden border border-yellow-500">
-                <img src="assets/images/about-image.jpg" alt="About Essence"
+
+            <div class="rounded-2xl overflow-hidden border border-yellow-500 glow-hover">
+                <img src="assets/images/about-image.jpg"
+                     alt="Essence Perfume Store"
                      class="w-full h-full object-cover">
             </div>
         </div>
 
         <!-- Values -->
-        <div class="grid md:grid-cols-3 gap-10 mb-24">
-            <div class="p-8 border border-yellow-500 rounded-xl text-center">
-                <h3 class="text-xl font-semibold mb-2 text-yellow-500">Quality</h3>
+        <div class="grid md:grid-cols-3 gap-10 mb-24 text-center">
+            <div class="p-8 border border-yellow-500 rounded-xl glow-hover">
+                <h3 class="text-xl font-semibold mb-2 text-yellow-500">Authenticity</h3>
                 <p class="text-gray-400">
-                    Only premium ingredients and long-lasting formulations.
+                    Genuine fragrances sourced from trusted suppliers.
                 </p>
             </div>
 
-            <div class="p-8 border border-yellow-500 rounded-xl text-center">
-                <h3 class="text-xl font-semibold mb-2 text-yellow-500">Elegance</h3>
+            <div class="p-8 border border-yellow-500 rounded-xl glow-hover">
+                <h3 class="text-xl font-semibold mb-2 text-yellow-500">Craftsmanship</h3>
                 <p class="text-gray-400">
-                    Designed for those who appreciate timeless luxury.
+                    Carefully selected scents with lasting impressions.
                 </p>
             </div>
 
-            <div class="p-8 border border-yellow-500 rounded-xl text-center">
-                <h3 class="text-xl font-semibold mb-2 text-yellow-500">Trust</h3>
+            <div class="p-8 border border-yellow-500 rounded-xl glow-hover">
+                <h3 class="text-xl font-semibold mb-2 text-yellow-500">Customer Care</h3>
                 <p class="text-gray-400">
-                    A brand built on authenticity and customer satisfaction.
+                    Personalized recommendations and attentive service.
                 </p>
             </div>
-        </div>
-
-        <!-- Call to Action -->
-        <div class="text-center">
-            <a href="products.php"
-               class="inline-block bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
-                Explore Our Products
-            </a>
         </div>
 
     </div>

@@ -10,7 +10,7 @@
                 Contact <span class="text-yellow-500">Us</span>
             </h1>
             <p class="text-gray-400">
-                Visit us or get in touch using the details below
+                Call or email us for product inquiries and assistance
             </p>
         </div>
 
@@ -21,17 +21,17 @@
             <div class="space-y-6 text-gray-400">
                 <p>
                     <span class="text-yellow-500 font-semibold">Phone:</span><br>
-                    (+60) 12-345 6789
+                    (+60) 17-907 5236
                 </p>
 
                 <p>
                     <span class="text-yellow-500 font-semibold">Email:</span><br>
-                    info@essence.com
+                    nrmlzakiah@gmail.com
                 </p>
 
                 <p>
                     <span class="text-yellow-500 font-semibold">Address:</span><br>
-                    8V47+3QV, Sibu, Sarawak
+                    L1, 312-412, Ground Floor, Star Mega Mall, Jalan Tunku Abdul Rahman, Sibu
                 </p>
 
                 <p class="text-sm">

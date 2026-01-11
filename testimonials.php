@@ -10,46 +10,76 @@
                 Customer <span class="text-yellow-500">Testimonials</span>
             </h1>
             <p class="text-gray-400">
-                What our customers say about Essence
+                Trusted by fragrance lovers
             </p>
         </div>
 
-        <!-- Slider -->
+        <!-- Slider Wrapper -->
         <div class="relative overflow-hidden">
 
+            <!-- Slides -->
             <div id="testimonialSlider" class="flex transition-transform duration-700 ease-in-out">
 
-                <!-- Testimonial 1 -->
-                <div class="min-w-full text-center px-6">
+                <!-- Slide 1 -->
+                <div class="min-w-full px-6 text-center">
                     <div class="border border-yellow-500 rounded-2xl p-10 max-w-3xl mx-auto">
-                        <p class="text-gray-300 italic mb-6">
-                            “Essence perfumes last all day and smell luxurious. Definitely my go-to brand.”
+                        <p class="italic text-gray-300 mb-6">
+                            “The staff helped me choose a scent that truly suits my personality.”
                         </p>
-                        <h3 class="text-yellow-500 font-semibold">— Aisyah M.</h3>
+                        <h3 class="text-yellow-500 font-semibold">— Aina H., Sibu</h3>
                     </div>
                 </div>
 
-                <!-- Testimonial 2 -->
-                <div class="min-w-full text-center px-6">
+                <!-- Slide 2 -->
+                <div class="min-w-full px-6 text-center">
                     <div class="border border-yellow-500 rounded-2xl p-10 max-w-3xl mx-auto">
-                        <p class="text-gray-300 italic mb-6">
-                            “Elegant packaging and premium scent. Perfect for gifting.”
+                        <p class="italic text-gray-300 mb-6">
+                            “Long-lasting fragrance without being overpowering. Worth every ringgit.”
                         </p>
-                        <h3 class="text-yellow-500 font-semibold">— Daniel R.</h3>
+                        <h3 class="text-yellow-500 font-semibold">— Farhan M.</h3>
                     </div>
                 </div>
 
-                <!-- Testimonial 3 -->
-                <div class="min-w-full text-center px-6">
+                <!-- Slide 3 -->
+                <div class="min-w-full px-6 text-center">
                     <div class="border border-yellow-500 rounded-2xl p-10 max-w-3xl mx-auto">
-                        <p class="text-gray-300 italic mb-6">
-                            “Affordable luxury with amazing quality. Highly recommended!”
+                        <p class="italic text-gray-300 mb-6">
+                            “The store has an elegant feel and a premium fragrance selection.”
                         </p>
-                        <h3 class="text-yellow-500 font-semibold">— Nur S.</h3>
+                        <h3 class="text-yellow-500 font-semibold">— Nur Aisyah Z.</h3>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="min-w-full px-6 text-center">
+                    <div class="border border-yellow-500 rounded-2xl p-10 max-w-3xl mx-auto">
+                        <p class="italic text-gray-300 mb-6">
+                            “Bought a perfume as a gift — the recipient loved it.”
+                        </p>
+                        <h3 class="text-yellow-500 font-semibold">— Daniel K.</h3>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="min-w-full px-6 text-center">
+                    <div class="border border-yellow-500 rounded-2xl p-10 max-w-3xl mx-auto">
+                        <p class="italic text-gray-300 mb-6">
+                            “If you want something unique and long-lasting, Essence is the place.”
+                        </p>
+                        <h3 class="text-yellow-500 font-semibold">— Syafiq R.</h3>
                     </div>
                 </div>
 
             </div>
+        </div>
+
+        <!-- Dots -->
+        <div class="flex justify-center mt-8 space-x-3">
+            <span class="dot w-3 h-3 bg-yellow-500 rounded-full"></span>
+            <span class="dot w-3 h-3 bg-gray-600 rounded-full"></span>
+            <span class="dot w-3 h-3 bg-gray-600 rounded-full"></span>
+            <span class="dot w-3 h-3 bg-gray-600 rounded-full"></span>
+            <span class="dot w-3 h-3 bg-gray-600 rounded-full"></span>
         </div>
 
     </div>
