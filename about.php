@@ -43,7 +43,7 @@
             </div>
 
             <div class="rounded-2xl overflow-hidden border border-yellow-500 glow-hover">
-                <img src="assets/images/about-image.jpg"
+                <img src="assets/images/about/store_front.png"
                      alt="Essence Perfume Store"
                      class="w-full h-full object-cover">
             </div>

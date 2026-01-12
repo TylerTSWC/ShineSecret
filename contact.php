@@ -35,7 +35,7 @@
                 </p>
 
                 <p class="text-sm">
-                    Our store is conveniently located near Star Mega Mall, making it
+                    Our store is conveniently located in Star Mega Mall, making it
                     easy for customers to visit and explore our fragrance collection.
                 </p>
             </div>
