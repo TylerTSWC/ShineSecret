@@ -7,7 +7,7 @@
         <!-- Hero -->
         <div class="text-center mb-20">
             <h1 class="text-4xl md:text-5xl font-bold mb-6">
-                About <span class="text-yellow-500">Essence</span>
+                About <span class="text-yellow-500">Shines Secret</span>
             </h1>
             <p class="text-gray-400 max-w-3xl mx-auto">
                 Where fragrance becomes a signature of elegance and confidence.
@@ -21,16 +21,16 @@
                     Our Story
                 </h2>
                 <p class="text-gray-400 leading-relaxed mb-4">
-                    Essence has been serving customers in the local community with a strong
+                    Shines Secret has been serving customers in the local community with a strong
                     passion for fine fragrances and personal expression. Established to meet
-                    the growing appreciation for quality perfumes, Essence aims to help
+                    the growing appreciation for quality perfumes, Shines Secret aims to help
                     individuals express confidence, elegance, and individuality through scent.
                 </p>
 
                 <p class="text-gray-400 leading-relaxed mb-4">
                     Founded by <span class="text-white font-medium">Nurmala Zakiah</span> and
                     co-owned with <span class="text-white font-medium">Badrul Zakuan</span>,
-                    Essence offers a carefully curated selection of perfumes ranging from
+                    Shines Secret offers a carefully curated selection of perfumes ranging from
                     floral and fresh notes to deep woody and oriental scents.
                 </p>
 
@@ -44,7 +44,7 @@
 
             <div class="rounded-2xl overflow-hidden border border-yellow-500 glow-hover">
                 <img src="assets/images/about/store_front.png"
-                     alt="Essence Perfume Store"
+                     alt="Shines Secret Perfume Store"
                      class="w-full h-full object-cover">
             </div>
         </div>

@@ -1,46 +1,91 @@
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/sidebar.php'; ?>
 
-<section class="bg-black py-24">
-    <div class="max-w-6xl mx-auto px-6">
+<section class="bg-black text-white py-24">
+    <div class="max-w-7xl mx-auto px-6">
 
+        <!-- Title -->
         <div class="text-center mb-16">
-            <h1 class="text-4xl font-bold text-white">
-                Our <span class="text-yellow-500">Products</span>
+            <h1 class="text-4xl font-bold">
+                Bottle <span class="text-yellow-500">Sizes</span>
             </h1>
-            <p class="text-gray-400 mt-2">
-                Crafted for elegance and lasting impressions
+            <p class="text-gray-400 mt-2 text-lg">
+                Crafted to suit every lifestyle and occasion
             </p>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <!-- Big Image Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-            <!-- Product Card -->
-            <div class="group bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 hover:border-yellow-500 transition">
-                <div class="relative overflow-hidden">
-                    <img src="assets/images/products/perfume1.jpg"
-                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-500"
-                         alt="Perfume">
-
-                    <!-- Overlay -->
-                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
-                        <button class="bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold">
-                            View Details
-                        </button>
+            <!-- Top Row -->
+            <div class="group fade-in">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/30ml_1.png"
+                        class="w-full h-[360px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold">30ml</h3>
+                            <p class="text-gray-300 text-sm">Travel-friendly size</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="p-6">
-                    <h3 class="text-lg font-semibold text-white">Golden Bloom</h3>
-                    <p class="text-gray-400 text-sm mt-1">Floral · Elegant · Long-lasting</p>
                 </div>
             </div>
 
-            <!-- Copy card for more products -->
+            <div class="group fade-in">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/50ml.png"
+                        class="w-full h-[360px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold">50ml</h3>
+                            <p class="text-gray-300 text-sm">Balanced & elegant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group fade-in">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/100ml.png"
+                        class="w-full h-[360px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold">100ml</h3>
+                            <p class="text-gray-300 text-sm">Signature bottle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Row -->
+            <div class="group fade-in">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/16ml.png"
+                        class="w-full h-[300px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold">16ml</h3>
+                            <p class="text-gray-300 text-sm">Compact & convenient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group fade-in">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/13ml.png"
+                        class="w-full h-[300px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold">13ml</h3>
+                            <p class="text-gray-300 text-sm">Perfect for sampling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-    </div>
-</section>
 
+</section>
 
 <?php include 'includes/footer.php'; ?>
