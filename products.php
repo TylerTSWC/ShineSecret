@@ -20,7 +20,7 @@
             <!-- Top Row -->
             <div class="group fade-in">
                 <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
-                    <img src="assets/images/products/sizes/30ml_1.png"
+                    <img src="assets/images/products/sizes/30ml.png"
                         class="w-full h-[360px] object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-black/40 flex items-end p-6">
                         <div>

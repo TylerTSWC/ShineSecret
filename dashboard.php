@@ -2,24 +2,33 @@
 <?php include 'includes/sidebar.php'; ?>
 
 <!-- HERO SECTION -->
-<section class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
-    <div>
-        <h1 class="text-5xl font-bold text-white mb-6">
-            We Care About <span class="text-yellow-500">Fragrances</span>
-        </h1>
-        <p class="text-gray-400 mb-8">
-            Luxury scents crafted for elegance and confidence.
-        </p>
-        <a href="#"
-           class="bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition">
-            See More
-        </a>
-    </div>
+<section class="bg-black py-24">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-    <div class="h-80 bg-gray-800 rounded-xl flex items-center justify-center">
-        <span class="text-gray-500">Hero Image</span>
+        <!-- Text -->
+        <div class="fade-in">
+            <h1 class="text-5xl font-bold mb-6">
+                Luxury <span class="text-yellow-500">Fragrances</span><br>
+                Made to Impress
+            </h1>
+            <p class="text-gray-400 mb-8">
+                Discover premium scents crafted for every personality and occasion.
+            </p>
+            <a href="products.php"
+               class="inline-block px-8 py-3 border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition rounded-full">
+                View Products
+            </a>
+        </div>
+
+        <!-- Image -->
+        <div class="fade-in">
+            <img src="assets/images/products/lifestyle/hero.png"
+                 class="rounded-2xl border border-yellow-500 shadow-lg">
+        </div>
+
     </div>
 </section>
+
 
 
 <!-- WHY ESSENCE -->
@@ -27,14 +36,15 @@
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
 
         <!-- Image / Visual -->
-        <div class="h-96 bg-gray-900 rounded-2xl flex items-center justify-center">
-            <span class="text-gray-600">Brand Image</span>
+        <div class="fade-in">
+            <img src="assets/images/products/lifestyle/brand.png"
+                 class="rounded-2xl border border-yellow-500 shadow-lg">
         </div>
 
         <!-- Text Content -->
         <div>
             <h2 class="text-4xl font-bold text-white mb-4">
-                Why <span class="text-yellow-500">Essence</span>
+                Why <span class="text-yellow-500">Shines Secret</span>
             </h2>
 
             <p class="text-gray-400 mb-6 leading-relaxed">
@@ -91,56 +101,82 @@
 
 
 <!-- PRODUCTS -->
-<section class="bg-gray-900 py-24">
-    <div class="max-w-7xl mx-auto px-6 text-center">
+<section class="bg-black py-24">
+    <div class="max-w-7xl mx-auto px-6">
 
-        <h2 class="text-4xl font-bold text-white mb-4">
-            Our <span class="text-yellow-500">Products</span>
-        </h2>
-        <p class="text-gray-400 mb-12">
-            Explore our signature collection of luxury fragrances
-        </p>
+        <!-- Title -->
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold">
+                Our <span class="text-yellow-500">Sizes & Prices</span>
+            </h2>
+            <p class="text-gray-400 mt-4">
+                Choose the perfect size that suits your lifestyle
+            </p>
+        </div>
 
-        <!-- Category Filter (Display Only) -->
-        <ul class="flex justify-center gap-8 mb-14 text-sm uppercase tracking-wider">
-            <li class="text-yellow-500 border-b border-yellow-500 pb-1">All</li>
-            <li class="text-gray-400 hover:text-yellow-500 cursor-pointer">Floral</li>
-            <li class="text-gray-400 hover:text-yellow-500 cursor-pointer">Woody</li>
-            <li class="text-gray-400 hover:text-yellow-500 cursor-pointer">Fresh</li>
-            <li class="text-gray-400 hover:text-yellow-500 cursor-pointer">Fruity</li>
-        </ul>
+        <!-- Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-        <!-- Product Grid -->
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
-            <?php for ($i = 1; $i <= 6; $i++): ?>
-                <div class="bg-black border border-yellow-500 rounded-2xl overflow-hidden hover:scale-105 transition">
-
-                    <div class="h-56 bg-gray-800 flex items-center justify-center">
-                        <span class="text-gray-600">Product Image</span>
+            <!-- Product Card -->
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/13ml.png"
+                         class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 flex flex-col justify-end p-6">
+                        <h3 class="text-xl font-semibold">13ml</h3>
+                        <p class="text-yellow-500 font-bold text-lg mt-1">RM 16</p>
                     </div>
-
-                    <div class="p-6 text-left">
-                        <h3 class="text-lg font-semibold text-white mb-2">
-                            Essence No. <?= $i ?>
-                        </h3>
-                        <p class="text-gray-400 text-sm mb-4">
-                            A refined fragrance crafted for elegance.
-                        </p>
-
-                        <div class="flex justify-between items-center">
-                            <span class="text-yellow-500 font-bold">RM 149.00</span>
-                            <a href="#"
-                               class="text-sm text-yellow-500 hover:underline">
-                                View
-                            </a>
-                        </div>
-                    </div>
-
                 </div>
-            <?php endfor; ?>
+            </div>
+
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/16ml.png"
+                         class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 flex flex-col justify-end p-6">
+                        <h3 class="text-xl font-semibold">16ml</h3>
+                        <p class="text-yellow-500 font-bold text-lg mt-1">RM 21</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/30ml.png"
+                         class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 flex flex-col justify-end p-6">
+                        <h3 class="text-xl font-semibold">30ml</h3>
+                        <p class="text-yellow-500 font-bold text-lg mt-1">RM 36</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/50ml.png"
+                         class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 flex flex-col justify-end p-6">
+                        <h3 class="text-xl font-semibold">50ml</h3>
+                        <p class="text-yellow-500 font-bold text-lg mt-1">RM 56</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative overflow-hidden rounded-2xl border border-yellow-500 glow-hover">
+                    <img src="assets/images/products/sizes/100ml.png"
+                         class="w-full h-[320px] object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 flex flex-col justify-end p-6">
+                        <h3 class="text-xl font-semibold">100ml</h3>
+                        <p class="text-yellow-500 font-bold text-lg mt-1">RM 99</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
+
 
 
 <?php include 'includes/footer.php'; ?>
