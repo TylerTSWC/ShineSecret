@@ -68,7 +68,7 @@
                 </li>
             </ul>
 
-            <a href="#"
+            <a href="about.php"
                class="inline-block border border-yellow-500 text-yellow-500 px-8 py-3 rounded-lg hover:bg-yellow-500 hover:text-black transition font-semibold">
                 Learn More
             </a>
