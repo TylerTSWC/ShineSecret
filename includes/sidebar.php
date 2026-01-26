@@ -17,7 +17,7 @@
 
 
         <!-- Desktop Button -->
-        <a href="#"
+        <a href="https://shopee.com.my/badrulzakuan?entryPoint=ShopBySearch&searchKeyword=zanne"
            class="hidden md:inline-block bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition">
             Order Now
         </a>
@@ -48,7 +48,7 @@
             <li><a href="testimonials.php" class="hover:text-yellow-500 transition">Testimonials</a></li>
             <li><a href="contact.php" class="hover:text-yellow-500 transition">Contact</a></li>
             <li>
-                <a href="#"
+                <a href="https://shopee.com.my/badrulzakuan?entryPoint=ShopBySearch&searchKeyword=zanne"
                    class="inline-block bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition">
                     Order Now
                 </a>
